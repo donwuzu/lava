@@ -7,34 +7,34 @@
  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  
  <!-- Title -->
- <title>Mediplus - Free Medical and Doctor Directory HTML Template.</title>
+ <title>Career Connection</title>
  
  <!-- Favicon -->
- <link rel="icon" href="img/favicon.png">
+ <link rel="icon" href="/images/avibriefcase.png">
  
  <!-- Google Fonts -->
  <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 
  <!-- Bootstrap CSS -->
- <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}} ">
+ <link rel="stylesheet" href="{{asset('/homecss/css/bootstrap.min.css')}} ">
  <!-- Nice Select CSS -->
- <link rel="stylesheet" href=" {{asset('css/nice-select.css')}} ">
+ <link rel="stylesheet" href=" {{asset('/homecss/css/nice-select.css')}} ">
  <!-- Font Awesome CSS -->
- <link rel="stylesheet" href=" {{asset('css/font-awesome.min.css')}} ">
+ <link rel="stylesheet" href=" {{asset('/homecss/css/font-awesome.min.css')}} ">
  <!-- icofont CSS -->
- <link rel="stylesheet" href=" {{asset('css/icofont.css')}} ">
+ <link rel="stylesheet" href=" {{asset('/homecss/css/icofont.css')}} ">
  <!-- Slicknav -->
- <link rel="stylesheet" href=" {{asset('css/slicknav.min.css')}} ">
+ <link rel="stylesheet" href=" {{asset('/homecss/css/slicknav.min.css')}} ">
  <!-- Owl Carousel CSS -->
- <link rel="stylesheet" href=" {{asset('css/owl-carousel.css')}} ">
+ <link rel="stylesheet" href=" {{asset('/homecss/css/owl-carousel.css')}} ">
  <!-- Datepicker CSS -->
- <link rel="stylesheet" href=" {{asset('css/datepicker.css')}} ">
+ <link rel="stylesheet" href=" {{asset('/homecss/css/datepicker.css')}} ">
  <!-- Animate CSS -->
- <link rel="stylesheet" href=" {{asset('css/animate.min.css')}} ">
+ <link rel="stylesheet" href=" {{asset('/homecss/css/animate.min.css')}} ">
  <!-- Magnific Popup CSS -->
- <link rel="stylesheet" href=" {{asset('css/magnific-popup.css')}} ">
+ <link rel="stylesheet" href=" {{asset('/homecss/css/magnific-popup.css')}} ">
  
  <!-- Medipro CSS -->
- <link rel="stylesheet" href=" {{asset('css/normalize.css')}} ">
- <link rel="stylesheet" href=" {{asset('style.css')}} ">
- <link rel="stylesheet" href=" {{asset('css/responsive.css')}} ">
+ <link rel="stylesheet" href=" {{asset('/homecss/css/normalize.css')}} ">
+ <link rel="stylesheet" href=" {{asset('/homecss/style.css')}} ">
+ <link rel="stylesheet" href=" {{asset('/homecss/css/responsive.css')}} ">
