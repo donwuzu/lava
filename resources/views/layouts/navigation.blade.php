@@ -14,9 +14,40 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:flex sm:ml-10">
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
+                    <x-nav-link :href="route('home')" :active="request()->routeIs('home')">
+                        {{ __('Home') }}
                     </x-nav-link>
+
+                     <!-- Only visible to Admin users -->
+                        @can('admin')
+                        <x-nav-link :href="route('admin.index')" :active="request()->routeIs('admin.index')">
+                            {{ __('Dashboard') }}
+                        </x-nav-link>
+
+                        <x-nav-link :href="route('admin.index')" :active="request()->routeIs('admin.home')">
+                            {{ __('Manage Posts') }}
+                        </x-nav-link>
+
+                        <x-nav-link :href="route('admin.index')" :active="request()->routeIs('admin.home')">
+                            {{ __('Admin Settings') }}
+                        </x-nav-link>
+                    @endcan
+
+
+
+
+                      <!-- Only visible to Normal users -->
+                      @can('user')
+                      <x-nav-link :href="route('career.form')" :active="request()->routeIs('career.form')">
+                          {{ __('Profession Information') }}
+                      </x-nav-link>
+
+                      <x-nav-link :href="route('admin.index')" :active="request()->routeIs('admin.home')">
+                          {{ __('My Posts') }}
+                      </x-nav-link>
+
+                  
+                  @endcan
                 </div>
             </div>
 
