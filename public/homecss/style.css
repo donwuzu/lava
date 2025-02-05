@@ -242,71 +242,154 @@ body{
 /*===================
 	Start Header CSS 
 =====================*/
-.header{
-	background-color:#fff;
-	position:relative;
+/* Make only the topbar sticky */
+.header .topbar {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Keeps it above other content */
+    padding: 15px 0;
 }
-.header .navbar-collapse{
-	padding:0;
+
+/* Ensure the page content does not get hidden under the sticky topbar */
+.header-inner {
+    padding-top: 60px; /* Adjust based on topbar height */
 }
-/* Topbar */
-.header .topbar{
-	background-color:#fff;
-	border-bottom:1px solid #eee;
+
+
+
+
+/* Keep everything else as it is */
+.header {
+    background-color: #fff;
+    position: relative;
 }
-.header .topbar{
-	padding:15px 0;
+
+.header .navbar-collapse {
+    padding: 0;
 }
-.header .top-link{
-	float:left;
+
+.header .top-link {
+    float: left;
 }
-.header .top-link li{
-	display:inline-block;
-	margin-right:15px;
+
+.header .top-link li {
+    display: inline-block;
+    margin-right: 15px;
 }
-.header .top-link li:last-child{
-	margin-right:0px;
+
+.header .top-link li:last-child {
+    margin-right: 0px;
 }
-.header .top-link li a{
-	color:#2C2D3F;
-	font-size:14px;
-	font-weight:400;
+
+.header .top-link li a {
+    color: #2C2D3F;
+    font-size: 14px;
+    font-weight: 400;
 }
-.header .top-link li:hover a{
-	color:#1A76D1;
+
+.header .top-link li:hover a {
+    color: #1A76D1;
 }
-.header .top-contact{
-	float:right;
+
+.header .top-contact {
+    float: right;
 }
-.header .top-contact li{
-	display:inline-block;
-	margin-right:25px;
-	color:#2C2D3F;
+
+.header .top-contact li {
+    display: inline-block;
+    margin-right: 25px;
+    color: #2C2D3F;
 }
-.header .top-contact li:last-child{
-	margin-right:0;
+
+.header .top-contact li:last-child {
+    margin-right: 0;
 }
-.header .top-contact li a{
-	font-size:14px;
+
+.header .top-contact li a {
+    font-size: 14px;
 }
-.header .top-contact li a:hover{
-	color:#1A76D1;
+
+.header .top-contact li a:hover {
+    color: #1A76D1;
 }
-.header .top-contact li i{
-	color:#1A76D1;
-	margin-right:8px;
+
+.header .top-contact li i {
+    color: #1A76D1;
+    margin-right: 8px;
 }
+
+
+
+
+
+
+/* Ensure .header-inner is NOT sticky */
 .header .header-inner {
-	background:#fff;
-	z-index:999;
-	width:100%;
+    background: #fff;
+    z-index: 999;
+    width: 100%;
+    position: relative; /* Ensures it scrolls with the page */
 }
-.get-quote{
-	margin-top:12px;
+
+/* Navigation Menu */
+.main-menu .navigation {
+    display: flex;
+    justify-content: center;
 }
-.get-quote .btn{
-	color:#fff;
+
+.main-menu .nav.menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
 }
+
+.main-menu .nav.menu li {
+    margin: 0 15px;
+}
+
+.main-menu .nav.menu li a {
+    color: #2C2D3F;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.main-menu .nav.menu li a:hover {
+    color: #1A76D1;
+}
+
+/* Ensure "Submit CV" button is always visible */
+.get-quote {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 1000; /* Keeps it above other elements */
+}
+
+.get-quote .btn {
+	margin-top: 50px;
+    background: #1A76D1;
+    color: #fff;
+    padding: 15px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.get-quote .btn:hover {
+    background: #1558A6;
+}
+
+
+
+
+
 .header .logo {
 	float: left;
 	margin-top: 18px;
@@ -590,14 +673,84 @@ body{
 	Start Hero Area CSS
 =============================*/
 .slider .single-slider {
-	height: 600px;
-	background-size: cover;
-	background-position: center;
-	background-repeat:no-repeat;
+    height: 100px; /* Full viewport height */
+    min-height: 200px; /* Ensures minimum height */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+    padding: 0 20px;
 }
-.slider .single-slider .text{
-	margin-top:120px;
+.slider .single-slider .text {
+    max-width: 600px;
+    color: #fff; /* Ensure text contrast */
+    text-align: left;
+	margin-top: -200px;
 }
+
+
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .slider .single-slider {
+        height: 80vh; /* Reduce height for tablets */
+        min-height: 500px;
+    }
+    
+    .slider .single-slider .text {
+        margin-top: 0; /* Reset negative margin */
+        text-align: left; /* left text on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .slider .single-slider {
+        height: 70vh; /* Adjust height for mobile */
+        min-height: 400px;
+    }
+
+    .slider .single-slider .text h1{
+		font-size: 30px; /* Reduce heading size */
+        text-align: left;
+        margin-top: 0; /* Reset negative margin */
+	
+    }
+
+	.slider .single-slider .text p {
+        font-size: 14px; /* Adjust paragraph size */
+		text-align: left; /* left text on smaller screens */
+
+    }
+}
+
+@media (max-width: 480px) {
+    .slider .single-slider {
+        height: 60vh; /* Further reduce height */
+        min-height: 300px;
+    }
+
+    .slider .single-slider .text h1{
+        font-size: 20px; /* Reduce heading size */
+		text-align: left; /* left text on smaller screens */
+		margin-top: -40px;
+
+    }
+
+    .slider .single-slider .text p {
+        font-size: 14px; /* Adjust paragraph size */
+		text-align: left; /* left text on smaller screens */
+
+    }
+}
+
+
+
+
+
+
 .slider.index2 .single-slider .text{
 	margin-top:150px;
 }

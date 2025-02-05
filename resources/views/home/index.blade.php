@@ -7,14 +7,8 @@
     <body>
 	
 		<!-- Preloader -->
-        {{-- <div class="preloader">
-            <div class="loader">
-                <div class="loader-outter"></div>
-                <div class="loader-inner"></div>
+     
 
-                
-            </div>
-        </div> --}}
         <!-- End Preloader -->
 		
 	
@@ -31,10 +25,10 @@
 				
 				style="background-image: url('/images/first.jpg'); 
             background-size: cover; 
-            background-position: center; 
+            background-position: top center; 
             background-repeat: no-repeat; 
             width: 100%; 
-            height: 120vh;"
+            height: 95vh;"
 				
 				
 				
@@ -43,8 +37,8 @@
 						<div class="row">
 							<div class="col-lg-7">
 								<div class="text">
-									<h1>Travelling With You Through the Journey Between <span>AMBITION</span> And  <span>SUCCESS!</span></h1>
-									<p>iLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam. </p>
+									<h1>Elevate Your <br> <span>Career</span> <br> Journey To <br> <span>SUCCESS!</span></h1>
+									<p>Simple Steps to Your Dream Job  </p>
 									<div class="button">
 										<a href="/career-form" class="btn">BEGIN</a>
 										<a href="/about" class="btn primary">Learn More</a>
@@ -55,12 +49,7 @@
 					</div>
 				</div>
 				<!-- End Single Slider -->
-				<!-- Start Single Slider -->
-				
-				<!-- Start End Slider -->
-				<!-- Start Single Slider -->
 			
-				<!-- End Single Slider -->
 			</div>
 		</section>
 		<!--/ End Slider Area -->
@@ -75,11 +64,11 @@
 							<div class="single-schedule first">
 								<div class="inner">
 									<div class="icon">
-										<i class="fa fa-ambulance"></i>
+										<i class="fa fa-group"></i>
 									</div>
 									<div class="single-content">
-										<span>Lorem Amet</span>
-										<h4>Emergency Cases</h4>
+										<span>Join Our Community</span>
+										<h4>Community</h4>
 										<p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
 										<a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
 									</div>
@@ -91,11 +80,11 @@
 							<div class="single-schedule middle">
 								<div class="inner">
 									<div class="icon">
-										<i class="icofont-prescription"></i>
+										<i class="icofont-paper"></i>
 									</div>
 									<div class="single-content">
-										<span>Fusce Porttitor</span>
-										<h4>Doctors Timetable</h4>
+										<span>Subscribe To Newsletter</span>
+										<h4>Newsletter</h4>
 										<p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
 										<a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
 									</div>
@@ -110,8 +99,8 @@
 										<i class="icofont-ui-clock"></i>
 									</div>
 									<div class="single-content">
-										<span>Donec luctus</span>
-										<h4>Opening Hours</h4>
+										<span>Join In The Routine</span>
+										<h4>Routine</h4>
 										<ul class="time-sidual">
 											<li class="day">Monday - Fridayp <span>8.00-20.00</span></li>
 											<li class="day">Saturday <span>9.00-18.30</span></li>
@@ -134,9 +123,9 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section-title">
-							<h2>We Are Always Ready to Help You & Your Family</h2>
+							<h2>Discover Your Next Opportunity</h2>
 							<img src=" {{asset ('/homecss/img/section-img.png') }} " alt="#">
-							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
+							<p>Create your profile, showcase your qualifications, and browse relevant job postings. Our intuitive platform makes job searching easy and efficient.</p>
 						</div>
 					</div>
 				</div>
@@ -145,10 +134,10 @@
 						<!-- Start Single features -->
 						<div class="single-features">
 							<div class="signle-icon">
-								<i class="icofont icofont-ambulance-cross"></i>
+								<i class="icofont icofont-graduate"></i>
 							</div>
-							<h3>Emergency Help</h3>
-							<p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
+							<h3>Create Your Professional Profile</h3>
+							<p>Showcase your skills, experience, and academic achievements to attract potential employers.</p>
 						</div>
 						<!-- End Single features -->
 					</div>
@@ -156,10 +145,10 @@
 						<!-- Start Single features -->
 						<div class="single-features">
 							<div class="signle-icon">
-								<i class="icofont icofont-medical-sign-alt"></i>
+								<i class="icofont icofont-link"></i>
 							</div>
-							<h3>Enriched Pharmecy</h3>
-							<p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
+							<h3> Candidate Matching and Placement </h3>
+							<p> Our dedicated team carefully reviews each candidate profile to identify the best matches for current job openings and opportunities.  </p>
 						</div>
 						<!-- End Single features -->
 					</div>
@@ -167,10 +156,10 @@
 						<!-- Start Single features -->
 						<div class="single-features last">
 							<div class="signle-icon">
-								<i class="icofont icofont-stethoscope"></i>
+								<i class="icofont icofont-diamond"></i>
 							</div>
-							<h3>Medical Treatment</h3>
-							<p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
+							<h3>Find Your Perfect Job</h3>
+							<p> We may directly connect you with employers or present your profile as part of a shortlist, maximizing your chances of finding the perfect role.</p>
 						</div>
 						<!-- End Single features -->
 					</div>
@@ -186,10 +175,10 @@
 					<div class="col-lg-3 col-md-6 col-12">
 						<!-- Start Single Fun -->
 						<div class="single-fun">
-							<i class="icofont icofont-home"></i>
+							<i class="icofont icofont-check"></i>
 							<div class="content">
 								<span class="counter">3468</span>
-								<p>Hospital Rooms</p>
+								<p>Active Members</p>
 							</div>
 						</div>
 						<!-- End Single Fun -->
@@ -197,10 +186,10 @@
 					<div class="col-lg-3 col-md-6 col-12">
 						<!-- Start Single Fun -->
 						<div class="single-fun">
-							<i class="icofont icofont-user-alt-3"></i>
+							<i class="icofont icofont-user-alt-4"></i>
 							<div class="content">
-								<span class="counter">557</span>
-								<p>Specialist Doctors</p>
+								<span class="counter">5</span>
+								<p>Administrators</p>
 							</div>
 						</div>
 						<!-- End Single Fun -->
@@ -210,8 +199,8 @@
 						<div class="single-fun">
 							<i class="icofont-simple-smile"></i>
 							<div class="content">
-								<span class="counter">4379</span>
-								<p>Happy Patients</p>
+								<span class="counter">379</span>
+								<p>Happy Beneficiaries</p>
 							</div>
 						</div>
 						<!-- End Single Fun -->
@@ -221,8 +210,8 @@
 						<div class="single-fun">
 							<i class="icofont icofont-table"></i>
 							<div class="content">
-								<span class="counter">32</span>
-								<p>Years of Experience</p>
+								<span class="counter">3</span>
+								<p>Years of Service</p>
 							</div>
 						</div>
 						<!-- End Single Fun -->
@@ -238,9 +227,9 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section-title">
-							<h2>We Offer Different Services To Improve Your Health</h2>
+							<h2>About Us</h2>
 							<img src=" {{asset('/homecss/img/section-img.png')}} " alt="#">
-							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
+							<p>Connecting Talent with Opportunity</p>
 						</div>
 					</div>
 				</div>
@@ -248,22 +237,26 @@
 					<div class="col-lg-6 col-12">
 						<!-- Start Choose Left -->
 						<div class="choose-left">
-							<h3>Who We Are</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pharetra antege vel est lobortis, a commodo magna rhoncus. In quis nisi non emet quam pharetra commodo. </p>
-							<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+							<h3>Our Mission</h3>
+
+						
+							<p>At This Company, we believe that everyone deserves the chance to find a fulfilling career. 
+								 We're passionate about bridging the gap between talented individuals and the organizations that need them.
+								  Our platform is designed to simplify the job search process and empower job seekers to take control of their professional journeys.</p>
+						
 							<div class="row">
 								<div class="col-lg-6">
 									<ul class="list">
-										<li><i class="fa fa-caret-right"></i>Maecenas vitae luctus nibh. </li>
-										<li><i class="fa fa-caret-right"></i>Duis massa massa.</li>
-										<li><i class="fa fa-caret-right"></i>Aliquam feugiat interdum.</li>
+										<li><i class="fa fa-caret-right"></i><strong>Integrity:</strong> We are committed to ethical practices and transparency in all our interactions. </li>
+										<li><i class="fa fa-caret-right"></i><strong>Innovation:</strong> We continually strive to improve our platform and services to better serve our users.</li>
+										<li><i class="fa fa-caret-right"></i><strong>Collaboration:</strong> We believe in the power of collaboration and work closely with both candidates and employers.</li>
 									</ul>
 								</div>
 								<div class="col-lg-6">
 									<ul class="list">
-										<li><i class="fa fa-caret-right"></i>Maecenas vitae luctus nibh. </li>
-										<li><i class="fa fa-caret-right"></i>Duis massa massa.</li>
-										<li><i class="fa fa-caret-right"></i>Aliquam feugiat interdum.</li>
+										<li><i class="fa fa-caret-right"></i><strong>Excellence:</strong> We are dedicated to providing exceptional service and support. </li>
+										<li><i class="fa fa-caret-right"></i><strong>Empowerment:</strong> We empower individuals to take ownership of their career paths.</li>
+										
 									</ul>
 								</div>
 							</div>
@@ -299,8 +292,9 @@
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-12">
 						<div class="content">
-							<h2>Do you need Emergency Medical Care? Call @ 1234 56789</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor dictum turpis nec gravida.</p>
+							<h2>Get in Touch</h2>
+							<p>We'd love to hear from you!  Whether you have a question, feedback, or just want to say hello, please don't hesitate to reach out.  </p>
+							
 							<div class="button">
 								<a href="#" class="btn">Contact Now</a>
 								<a href="#" class="btn second">Learn More<i class="fa fa-long-arrow-right"></i></a>
@@ -314,179 +308,9 @@
 		
 		
 		
-		<!-- Start service -->
-		<section class="services section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="section-title">
-							<h2>We Offer Different Services To Improve Your Health</h2>
-							<img src=" {{asset('/homecss/img/section-img.png')}} " alt="#">
-							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
-						<div class="single-service">
-							<i class="icofont icofont-prescription"></i>
-							<h4><a href="service-details.html">General Treatment</a></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-						</div>
-						<!-- End Single Service -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
-						<div class="single-service">
-							<i class="icofont icofont-tooth"></i>
-							<h4><a href="service-details.html">Teeth Whitening</a></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-						</div>
-						<!-- End Single Service -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
-						<div class="single-service">
-							<i class="icofont icofont-heart-alt"></i>
-							<h4><a href="service-details.html">Heart Surgery</a></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-						</div>
-						<!-- End Single Service -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
-						<div class="single-service">
-							<i class="icofont icofont-listening"></i>
-							<h4><a href="service-details.html">Ear Treatment</a></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-						</div>
-						<!-- End Single Service -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
-						<div class="single-service">
-							<i class="icofont icofont-eye-alt"></i>
-							<h4><a href="service-details.html">Vision Problems</a></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-						</div>
-						<!-- End Single Service -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Start Single Service -->
-						<div class="single-service">
-							<i class="icofont icofont-blood"></i>
-							<h4><a href="service-details.html">Blood Transfusion</a></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus dictum eros ut imperdiet. </p>	
-						</div>
-						<!-- End Single Service -->
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--/ End service -->
 		
-		<!-- Pricing Table -->
-		<section class="pricing-table section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="section-title">
-							<h2>We Provide You The Best Treatment In Resonable Price</h2>
-							<img src=" {{asset('/homecss/img/section-img.png')  }} " alt="#">
-							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<!-- Single Table -->
-					<div class="col-lg-4 col-md-12 col-12">
-						<div class="single-table">
-							<!-- Table Head -->
-							<div class="table-head">
-								<div class="icon">
-									<i class="icofont icofont-ui-cut"></i>
-								</div>
-								<h4 class="title">Plastic Suggery</h4>
-								<div class="price">
-									<p class="amount">$199<span>/ Per Visit</span></p>
-								</div>	
-							</div>
-							<!-- Table List -->
-							<ul class="table-list">
-								<li><i class="icofont icofont-ui-check"></i>Lorem ipsum dolor sit</li>
-								<li><i class="icofont icofont-ui-check"></i>Cubitur sollicitudin fentum</li>
-								<li class="cross"><i class="icofont icofont-ui-close"></i>Nullam interdum enim</li>
-								<li class="cross"><i class="icofont icofont-ui-close"></i>Donec ultricies metus</li>
-								<li class="cross"><i class="icofont icofont-ui-close"></i>Pellentesque eget nibh</li>
-							</ul>
-							<div class="table-bottom">
-								<a class="btn" href="#">Book Now</a>
-							</div>
-							<!-- Table Bottom -->
-						</div>
-					</div>
-					<!-- End Single Table-->
-					<!-- Single Table -->
-					<div class="col-lg-4 col-md-12 col-12">
-						<div class="single-table">
-							<!-- Table Head -->
-							<div class="table-head">
-								<div class="icon">
-									<i class="icofont icofont-tooth"></i>
-								</div>
-								<h4 class="title">Teeth Whitening</h4>
-								<div class="price">
-									<p class="amount">$299<span>/ Per Visit</span></p>
-								</div>	
-							</div>
-							<!-- Table List -->
-							<ul class="table-list">
-								<li><i class="icofont icofont-ui-check"></i>Lorem ipsum dolor sit</li>
-								<li><i class="icofont icofont-ui-check"></i>Cubitur sollicitudin fentum</li>
-								<li><i class="icofont icofont-ui-check"></i>Nullam interdum enim</li>
-								<li class="cross"><i class="icofont icofont-ui-close"></i>Donec ultricies metus</li>
-								<li class="cross"><i class="icofont icofont-ui-close"></i>Pellentesque eget nibh</li>
-							</ul>
-							<div class="table-bottom">
-								<a class="btn" href="#">Book Now</a>
-							</div>
-							<!-- Table Bottom -->
-						</div>
-					</div>
-					<!-- End Single Table-->
-					<!-- Single Table -->
-					<div class="col-lg-4 col-md-12 col-12">
-						<div class="single-table">
-							<!-- Table Head -->
-							<div class="table-head">
-								<div class="icon">
-									<i class="icofont-heart-beat"></i>
-								</div>
-								<h4 class="title">Heart Suggery</h4>
-								<div class="price">
-									<p class="amount">$399<span>/ Per Visit</span></p>
-								</div>	
-							</div>
-							<!-- Table List -->
-							<ul class="table-list">
-								<li><i class="icofont icofont-ui-check"></i>Lorem ipsum dolor sit</li>
-								<li><i class="icofont icofont-ui-check"></i>Cubitur sollicitudin fentum</li>
-								<li><i class="icofont icofont-ui-check"></i>Nullam interdum enim</li>
-								<li><i class="icofont icofont-ui-check"></i>Donec ultricies metus</li>
-								<li><i class="icofont icofont-ui-check"></i>Pellentesque eget nibh</li>
-							</ul>
-							<div class="table-bottom">
-								<a class="btn" href="#">Book Now</a>
-							</div>
-							<!-- Table Bottom -->
-						</div>
-					</div>
-					<!-- End Single Table-->
-				</div>	
-			</div>	
-		</section>	
-		<!--/ End Pricing Table -->
+		
+		
 		
 		
 		
@@ -496,9 +320,9 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section-title">
-							<h2>We Are Always Ready to Help You. Book An Appointment</h2>
+							<h2>Send Us a Message</h2>
 							<img src=" {{ asset('/homecss/img/section-img.png')}} " alt="#">
-							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
+							<p>Have a question, comment, or suggestion? We'd love to hear from you!  Please fill out the form below, and we'll get back to you as soon as possible.</p>
 						</div>
 					</div>
 				</div>
@@ -521,31 +345,8 @@
 										<input name="phone" type="text" placeholder="Phone">
 									</div>
 								</div>
-								<div class="col-lg-6 col-md-6 col-12">
-									<div class="form-group">
-										<div class="nice-select form-control wide" tabindex="0"><span class="current">Department</span>
-											<ul class="list">
-												<li data-value="1" class="option selected ">Department</li>
-												<li data-value="2" class="option">Cardiac Clinic</li>
-												<li data-value="3" class="option">Neurology</li>
-												<li data-value="4" class="option">Dentistry</li>
-												<li data-value="5" class="option">Gastroenterology</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6 col-12">
-									<div class="form-group">
-										<div class="nice-select form-control wide" tabindex="0"><span class="current">Doctor</span>
-											<ul class="list">
-												<li data-value="1" class="option selected ">Doctor</li>
-												<li data-value="2" class="option">Dr. Akther Hossain</li>
-												<li data-value="3" class="option">Dr. Dery Alex</li>
-												<li data-value="4" class="option">Dr. Jovis Karon</li>
-											</ul>
-										</div>
-									</div>
-								</div>
+							
+								
 								<div class="col-lg-6 col-md-6 col-12">
 									<div class="form-group">
 										<input type="text" placeholder="Date" id="datepicker">
@@ -561,7 +362,7 @@
 								<div class="col-lg-5 col-md-4 col-12">
 									<div class="form-group">
 										<div class="button">
-											<button type="submit" class="btn">Book An Appointment</button>
+											<button type="submit" class="btn">Send Message</button>
 										</div>
 									</div>
 								</div>
@@ -573,7 +374,7 @@
 					</div>
 					<div class="col-lg-6 col-md-12 ">
 						<div class="appointment-image">
-							<img src=" {{asset ('/homecss/img/contact-img.png')}} " alt="#">
+							<img src=" {{asset ('/images/comms.jpg')}} " alt="#">
 						</div>
 					</div>
 				</div>
@@ -588,8 +389,9 @@
 					<div class="col-lg-6  col-12">
 						<!-- Start Newsletter Form -->
 						<div class="subscribe-text ">
-							<h6>Sign up for newsletter</h6>
-							<p class="">Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu,<br> homero alterum.</p>
+							<h6>Stay Updated</h6>
+						
+							<p class="">Subscribe to our newsletter to receive the latest news, job opportunities, <br> and career advice directly to your inbox.</p>
 						</div>
 						<!-- End Newsletter Form -->
 					</div>

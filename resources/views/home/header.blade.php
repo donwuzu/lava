@@ -41,10 +41,8 @@
                         <div class="main-menu">
                             <nav class="navigation">
                                 <ul class="nav menu">
-                                    <li class="active"><a href="#">Home <i class="icofont-rounded-down"></i></a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.html">Home Page </a></li>
-                                        </ul>
+                                    <li class="active"><a href="#">Home </a>
+                                       
                                     </li>
                                     <li><a href="/docs">My Documents </a></li>
                                     <li><a href="#">Services </a></li>
