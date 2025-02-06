@@ -124,7 +124,7 @@
 					<div class="col-lg-12">
 						<div class="section-title">
 							<h2>Discover Your Next Opportunity</h2>
-							<img src=" {{asset ('/homecss/img/section-img.png') }} " alt="#">
+							<img src=" {{asset ('/images/notebook.png') }} " alt="#" style="width: 40px; height: 40px;">
 							<p>Create your profile, showcase your qualifications, and browse relevant job postings. Our intuitive platform makes job searching easy and efficient.</p>
 						</div>
 					</div>
@@ -228,7 +228,7 @@
 					<div class="col-lg-12">
 						<div class="section-title">
 							<h2>About Us</h2>
-							<img src=" {{asset('/homecss/img/section-img.png')}} " alt="#">
+							<img src=" {{asset ('/images/about.png') }} " alt="#" style="width: 40px; height: 40px;">
 							<p>Connecting Talent with Opportunity</p>
 						</div>
 					</div>
@@ -321,7 +321,7 @@
 					<div class="col-lg-12">
 						<div class="section-title">
 							<h2>Send Us a Message</h2>
-							<img src=" {{ asset('/homecss/img/section-img.png')}} " alt="#">
+							<img src=" {{asset ('/images/speech-bubble.png') }} " alt="#" style="width: 40px; height: 40px;">
 							<p>Have a question, comment, or suggestion? We'd love to hear from you!  Please fill out the form below, and we'll get back to you as soon as possible.</p>
 						</div>
 					</div>

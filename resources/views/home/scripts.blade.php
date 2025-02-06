@@ -38,3 +38,7 @@
 <script src=" {{asset('/homecss/js/bootstrap.min.js')}} "></script>
 <!-- Main JS -->
 <script src=" {{asset('/homecss/js/main.js')}} "></script>
+
+
+
+<script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>

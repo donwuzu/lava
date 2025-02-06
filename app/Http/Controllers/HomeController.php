@@ -19,6 +19,16 @@ class HomeController extends Controller
         return view ('home.index');
     }
 
+
+    public function about(){
+        return view ('home.about');
+    }
+
+
+    public function contact(){
+        return view ('home.contact');
+    }
+
     public function page(){
        return view('admin.index');
     }
